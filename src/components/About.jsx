@@ -30,7 +30,7 @@ export default function About() {
               <img
                 src="/images/profile.jpg"
                 alt="Jhon"
-                className="relative w-90 h-90 md:w-[450px] md:h-[650px] object-cover rounded-3xl border border-gray-700"
+                className="relative w-90 h-90 md:w-[400px] md:h-[550px] object-cover rounded-3xl border border-gray-700"
               />
             </div>
           </motion.div>
