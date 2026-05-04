@@ -61,7 +61,7 @@ export default function About() {
 
             {/* TECNOLOGÍAS */}
             <div className="mt-8 flex flex-wrap gap-4">
-              {["React", "JavaScript", "HTML", "CSS", "Angular"].map((tech, i) => (
+              {["React", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Angular", "Python", "Java", "Node.js", "MySQL"].map((tech, i) => (
                 <span
                   key={i}
                   className="bg-gray-800 px-5 py-2 rounded-lg text-sm hover:bg-gray-700 transition"

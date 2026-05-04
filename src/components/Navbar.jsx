@@ -32,6 +32,9 @@ export default function Navbar() {
             <a href="#projects" className="hover:text-blue-400 transition">
               Proyectos
             </a>
+            <a href="#certifications" className="hover:text-blue-400 transition">
+              Certificaciones
+            </a>
             <a href="#contact" className="hover:text-blue-400 transition">
               Contacto
             </a>
