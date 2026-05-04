@@ -1,5 +1,12 @@
 import { useEffect, useState } from "react";
-import { FaGithub, FaLinkedin, FaUser, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaUser,
+  FaProjectDiagram,
+  FaEnvelope,
+  FaDownload
+} from "react-icons/fa";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,6 +28,7 @@ export default function Navbar() {
           : "top-0 left-0 w-full bg-transparent"
       }`}
     >
+      {/* NAVBAR NORMAL */}
       {!scrolled && (
         <div className="flex justify-between items-center p-5 max-w-6xl mx-auto w-full">
           <h1 className="font-bold text-lg">JhonDev</h1>
@@ -39,22 +47,33 @@ export default function Navbar() {
               Contacto
             </a>
 
-            {/* Redes */}
-            <a 
-             href="https://github.com/JhonD2005"
-             target="_blank"
-             rel="noopener noreferrer"
-             title="GitHub"
-             >
+            {/* 🔗 Redes */}
+            <a
+              href="https://github.com/JhonD2005"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="GitHub"
+            >
               <FaGithub className="hover:text-blue-400 transition" />
             </a>
-            <a 
-             href="https://www.linkedin.com/in/jhon-david-37138933a"
-             target="_blank"
-             rel="noopener noreferrer"
-             title="Linkedin"
-             >
+
+            <a
+              href="https://www.linkedin.com/in/jhon-david-37138933a"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
+            >
               <FaLinkedin className="hover:text-blue-400 transition" />
+            </a>
+
+            {/* BOTÓN CV */}
+            <a
+              href="/cv/cv.pdf"
+              download
+              className="ml-4 bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 rounded-lg text-white text-sm font-medium flex items-center gap-2 transition hover:scale-105 hover:shadow-lg hover:shadow-blue-500/30"
+            >
+              <FaDownload />
+              CV
             </a>
           </div>
         </div>
@@ -75,22 +94,34 @@ export default function Navbar() {
             <FaEnvelope />
           </a>
 
-          <a 
+          <a
             href="https://github.com/JhonD2005"
-             target="_blank"
-             rel="noopener noreferrer"
-             title="GitHub"
-             >
+            target="_blank"
+            rel="noopener noreferrer"
+            title="GitHub"
+            className="hover:scale-125 transition"
+          >
             <FaGithub />
           </a>
 
-          <a 
+          <a
             href="https://www.linkedin.com/in/jhon-david-37138933a"
-             target="_blank"
-             rel="noopener noreferrer"
-             title="Linkedin"
-             >
+            target="_blank"
+            rel="noopener noreferrer"
+            title="LinkedIn"
+            className="hover:scale-125 transition"
+          >
             <FaLinkedin />
+          </a>
+
+          {/* ICONO CV */}
+          <a
+            href="/cv/Jhon-David-CV.pdf"
+            download
+            title="Descargar CV"
+            className="text-green-400 hover:scale-125 transition"
+          >
+            <FaDownload />
           </a>
         </div>
       )}
