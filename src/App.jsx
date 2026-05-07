@@ -21,11 +21,4 @@ function App() {
   );
 }
 
-<StrictMode>
-  <>
-    <App />
-    <Analytics />
-  </>
-</StrictMode>
-
 export default App;
