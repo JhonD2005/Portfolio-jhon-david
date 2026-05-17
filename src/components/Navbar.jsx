@@ -57,7 +57,7 @@ export default function Navbar() {
 
             {/* CV */}
             <a
-              href="/cv/Jhon-David-CV.pdf"
+              href="/cv/Jhon david V_CV.pdf"
               download
               className="ml-2 bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 rounded-lg text-white flex items-center gap-2 hover:scale-105 transition"
             >
@@ -95,7 +95,7 @@ export default function Navbar() {
           </div>
 
           <a
-            href="/cv/Jhon-David-CV.pdf"
+            href="/cv/Jhon david V_CV.pdf"
             download
             className="bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 rounded-lg flex items-center gap-2"
           >
@@ -129,7 +129,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="/cv/Jhon-David-CV.pdf"
+            href="/cv/Jhon david V_CV.pdf"
             download
             className="text-green-400 hover:scale-125 transition"
           >
