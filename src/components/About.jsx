@@ -41,21 +41,21 @@ export default function About() {
             transition={{ duration: 0.7 }}
           >
             <p className="text-gray-300 leading-relaxed text-lg">
-              Soy desarrollador de software con experiencia en desarrollo web y
-              aseguramiento de calidad. Me especializo en Front-End utilizando
-              React, JavaScript y CSS moderno, creando interfaces atractivas,
-              funcionales y optimizadas para la mejor experiencia de usuario.
+              Soy desarrollador de software con enfoque en QA Manual y aseguramiento de calidad,
+              con experiencia en validación funcional de aplicaciones web y móviles,
+              pruebas de APIs y análisis de incidencias en entornos empresariales.
             </p>
 
             <p className="mt-6 text-gray-400 leading-relaxed text-lg">
-              También cuento con conocimientos en Back-End, bases de datos y
-              testing, lo que me permite desarrollar soluciones completas y
-              adaptarme a diferentes entornos tecnológicos.
+              Cuento con conocimientos en testing manual, SQL, Postman y herramientas de
+              desarrollo, además de bases en programación con Java, JavaScript y React,
+              lo que me permite comprender el ciclo completo de desarrollo de software.
             </p>
 
             <p className="mt-6 text-gray-400 leading-relaxed text-lg">
-              Me apasiona construir productos digitales que no solo funcionen bien,
-              sino que también ofrezcan una experiencia intuitiva y moderna.
+              Actualmente me encuentro fortaleciendo mis habilidades en automatización de
+              pruebas y calidad de software, con el objetivo de seguir creciendo
+              profesionalmente en el área de QA.
             </p>
 
             {/* TECNOLOGÍAS */}
@@ -122,7 +122,7 @@ export default function About() {
 
                 {/* EXTRA VISUAL */}
                 <div className="mt-6 flex flex-wrap gap-3">
-                  {["Desarrollo Web", "Front end", "Back end",  "Bases de Datos", "Estructuras de Datos", "POO"].map((item, i) => (
+                  {["Desarrollo Web", "Front end", "Back end", "Bases de Datos", "Estructuras de Datos", "POO"].map((item, i) => (
                     <span
                       key={i}
                       className="text-xs bg-gray-700 px-3 py-1 rounded-lg"

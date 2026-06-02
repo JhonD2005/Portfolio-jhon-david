@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 const experience = [
   {
     company: "Globant",
-    role: "QA Tester",
-    period: "2023 - 2024",
+    role: "QA Manual",
+    period: "2025 - 2026",
     logo: "/images/globant.png",
     achievements: [
       "Ejecución de pruebas funcionales en aplicaciones web",
@@ -115,9 +115,11 @@ export default function Experience() {
 
             {/* Texto */}
             <p className="text-gray-300 leading-relaxed">
-              Actualmente me encuentro en búsqueda de nuevas oportunidades como
-              desarrollador, donde pueda aportar mis conocimientos en Front-End,
-              seguir aprendiendo y contribuir al desarrollo de productos de calidad.
+              Actualmente me encuentro en búsqueda de nuevas oportunidades en el área de QA Manual
+              y aseguramiento de calidad de software, donde pueda aportar mis conocimientos en pruebas funcionales, 
+              validación de APIs y análisis de incidencias, mientras continúo fortaleciendo mis habilidades en automatización 
+              de pruebas y calidad de software.
+
             </p>
 
             {/* CTA */}
