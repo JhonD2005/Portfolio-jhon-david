@@ -40,10 +40,10 @@ export default function Hero() {
         >
           <Typewriter
             words={[
-              "Desarrollador Fullstack",
-              "Especialista en React",
-              "Apasionado por el Front-End",
-              "Creando experiencias modernas"
+              "QA Manual Analyst",
+              "Apasionado por la calidad de software",
+              "Enfocado en testing y validación",
+              "Aprendiendo automatización de pruebas"
             ]}
             loop
             cursor
